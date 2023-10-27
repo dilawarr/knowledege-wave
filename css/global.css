@@ -27,7 +27,19 @@ footer p {
 nav {
     margin: 1vw ;
     padding-bottom: 3vh;
-    border-bottom: 0.1vw #252c3d solid;;
+    border-bottom: 0.1vw #252c3d solid;
+}
+
+nav ul button {
+    text-decoration: none;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background: none;
+    color: #FFFFFF;
+    border: none;
+    width: 3vw;
+    height: 2vh;
+    font-size: 100%;
+    cursor: pointer;
 }
 
 nav ul li{ 
@@ -42,8 +54,12 @@ nav ul li{
     padding: 1vw;
 }
 
+nav ul li:hover {
+    border-bottom: 0.1vh #FFFFFF solid;
+}
+
 nav ul li:first-child {
-    padding-right: 10vh;
+    margin-right: 10vh;
 }
 nav ul li a {
     text-decoration: none;
