@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/sign_in.css">
+    <script src="js/global.js"></script>
     <title>Sign In | Knowledge Wave</title>
 </head>
     <body>
@@ -12,11 +13,12 @@
             <nav>
                 <ul>
                     <li><a href="sign_in.html">Sign In</a></li>
-                    <li><button>Search</button></li>
+                    <li><button onclick="toggleSearch()">Search</button></li>
                     <li><a href="#">Courses</a></li>
                     <li><a href="index.html">Dashboard</a></li>
                 </ul>
                 <img src="imgs/png-clipart-computer-icons-facebook-facebook-logo-black-and-white.png" alt="logo">
+                <input type="search" id="searchBar" name="searchBar" placeholder="Search">
             </nav>
         </header>
         <main>

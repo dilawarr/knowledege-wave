@@ -13,7 +13,7 @@ body {
 }
 
 footer {
-    margin: 10vh 6vw 5vh 6vw;
+    margin: 10vh 6vw 0 6vw;
     padding: 3vw 1vh;
     display: block;
     font-size: 90%;
@@ -28,6 +28,10 @@ nav {
     margin: 1vw ;
     padding-bottom: 3vh;
     border-bottom: 0.1vw #252c3d solid;
+}
+
+nav ul {
+    text-align: center;
 }
 
 nav ul button {
@@ -52,6 +56,17 @@ nav ul li{
     display: inline;
     float: right;
     padding: 1vw;
+}
+
+#searchBar {
+    border-radius: 1vw;
+    font-size: 90%;
+    width: 30vw;
+    height: 5vh;
+    margin-left: 65vw;
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+    display: none;
 }
 
 nav ul li:hover {
