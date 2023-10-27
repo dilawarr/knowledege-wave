@@ -1,0 +1,78 @@
+#page_info {
+    text-align: center;
+    margin: 10vh;
+    font-size: 150%;
+}
+
+#page_info h1{
+    font-size: 175%;
+}
+
+#page_info p {
+    margin: 1vh;
+    color: #bdbcbc;
+}
+
+#page_info a {
+    color: #bdbcbc;
+}
+
+#sign_in_form {
+    text-align: center;
+}
+
+form {
+    background-color: #252c3d;
+    border: 0.1vw solid #2f384d;
+    border-radius: 1vh;
+    margin: 0 auto;
+    padding: 2vw 1vh;
+    width: 30vw;
+    align-items: center;
+}
+
+input, label {
+    display:flex;
+    flex-direction:column;
+    /* align-items: center; */
+}
+
+input {
+    color: #FFFFFF;
+    background-color: #252c3d;
+    font-size: 150%;
+    border: 0.1vw rgb(112, 111, 121) solid;
+    padding: 2vh 1vw;
+    height: 2vh;
+    width: 24vw;
+    margin: 2vw;
+    border-radius: 1vh;
+    margin-top: 0;
+}
+
+input[type="submit"] {
+    background-color: #3C6E71;
+    text-align: center;
+    border: 0.1vw #3C6E71 solid;
+    padding: 2vh 1vw;
+    font-size: 100%;
+    height: 6vh;
+    width: 26vw;
+    margin: 2vw;
+    margin-top: 3vw;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+input[type="submit"]:hover, input[type="submit"]:active,  input[type="submit"]:focus {
+    background-color: #326063;
+}
+
+label {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: left;
+    padding-left: 2vw;
+    margin-top: 1vh;
+    font-weight: bold;
+}
