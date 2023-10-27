@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#welcomePage {
+    color: #FFFFFF;
+    display: flex;
+    float: left;
+    width: 48vw;
+    height: 100vh;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    background-color: #24a3aa94;
+    background-image: linear-gradient(to bottom right, #284B63, #284b63c4, #284b638f, #284b63da);
+    margin-bottom: 0;
+}
+
+h1{
+    vertical-align: middle;
+}
+
+#formPage {
+    margin: 20vh 5vw 0 5vw;
+    float: left;
+    width: 40vw;
+    height: 80vh;
+    margin-bottom: 0;
+}
+
+button {
+    font-size: 100%;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: bold;
+    background-color: #FFFFFF;
+    border: solid #3535354b 1px;
+    border-radius: 0.5vw;
+    border-bottom: solid #FFFFFF 1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-clip: content-box ;
+    height: 3vh;
+    padding: 2vh 2vw 3vw;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#buttons {
+    text-align: center;
+}
+
+#signUpButton {
+    border: none;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid #3535354b 1px;
+    border-radius: 0.5vw;
+    margin-top: -1px;
+    text-align: center;
+    font-size: 100%;
+    margin-bottom: 0;
+}
+
+
+input {
+    font-size: 100%;
+    display: block;
+    background-color: #3c6e712d;
+    border: 10px solid #3c6e712d;
+    border-left: 20px solid #3c6e712d;
+    border-right: 20px solid #3c6e712d;
+    background-clip: padding-box;
+    border-radius: 5vw;
+    height: 3vh;
+    width: 30vw;
+    margin: 2vw;
+    color: #2f5658;
+}
+
+input::placeholder {
+    font-size: 90%;
+}
+
+input[type="submit"] {
+    color: #FFFFFF;
+    background-color: #3C6E71;
+    text-align: center;
+    border: none;
+    height: 6vh;
+    width: 15vw;
+    text-align: center;
+    margin-left: 11.5vw
+}
+
+#signUpForm {
+    display: none;
+}
+
+fieldset {
+    border: none;
+    text-align: center;
+}
