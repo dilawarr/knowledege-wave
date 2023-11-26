@@ -1,0 +1,30 @@
+input::-webkit-calendar-picker-indicator {
+
+    filter: invert(1);
+}  
+
+input::-webkit-datetime-edit-month-field { 
+
+    color: white; 
+}
+
+input::-webkit-datetime-edit-day-field { 
+
+    color: #FFFFFF; 
+}
+
+input::-webkit-datetime-edit-year-field { 
+
+    color: #FFFFFF; 
+}
+
+input::-webkit-datetime-edit-text { 
+    color: #FFFFFF; 
+}
+
+input[type="date"] {
+    flex-direction: row;
+}
+/* input[type="date"] {
+    color: #ffffff;
+} */
