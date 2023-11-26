@@ -25,6 +25,3 @@ input::-webkit-datetime-edit-text {
 input[type="date"] {
     flex-direction: row;
 }
-/* input[type="date"] {
-    color: #ffffff;
-} */
